@@ -4,7 +4,7 @@
 
 <div align="center">
 
-Performant React Native image component.
+Performant React Native image component. This is fork from react-native-fast-image, and it fix an issue which support 0.60+ react-native.
 
 [![Version][version-badge]][package]
 [![Downloads][downloads-badge]][npmtrends]

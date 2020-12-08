@@ -1,7 +1,7 @@
 {
-    "name": "react-native-fast-image",
+    "name": "@aaxis/react-native-fast-image",
     "version": "8.3.4",
-    "description": "🚩 FastImage, performant React Native image component.",
+    "description": "FastImage, performant React Native image component.",
     "keywords": [
         "cache",
         "cached",
@@ -18,7 +18,7 @@
         "url": "https://github.com/DylanVann/react-native-fast-image.git"
     },
     "license": "(MIT AND Apache-2.0)",
-    "author": "Dylan Vann <dylan@dylanvann.com> (https://dylanvann.com)",
+    "author": "Zachary",
     "main": "dist/index.cjs.js",
     "module": "dist/index.js",
     "typings": "dist/index.d.ts",

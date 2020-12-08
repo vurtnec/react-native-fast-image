@@ -4,7 +4,7 @@
 #import <SDWebImage/SDWebImageDownloader.h>
 
 #import <React/RCTComponent.h>
-#import <React/RCTResizeMode.h>
+#import <React-RCTImage/React/RCTResizeMode.h>
 
 #import "FFFastImageSource.h"
 
