@@ -2,11 +2,7 @@
   🚩 FastImage
 </h1>
 
-<div align="center">
-
 Performant React Native image component. This is fork from react-native-fast-image:v8.3.4, and fixed an issue which support 0.60+ react-native.
-
-</div>
 
 React Native's `Image` component handles image caching like browsers
 for the most part.
@@ -40,7 +36,7 @@ and
 **Note: You must be using React Native 0.60.0 or higher to use the most recent version of `react-native-fast-image`.**
 
 ```bash
-yarn add react-native-fast-image
+yarn add @aaxis/react-native-fast-image
 ```
 
 ```jsx
