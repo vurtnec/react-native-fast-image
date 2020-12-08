@@ -4,29 +4,9 @@
 
 <div align="center">
 
-Performant React Native image component. This is fork from react-native-fast-image, and it fix an issue which support 0.60+ react-native.
-
-[![Version][version-badge]][package]
-[![Downloads][downloads-badge]][npmtrends]
-[![Build Status][build-badge]][build]
-[![Code Coverage][coverage-badge]][coverage]
-
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
+Performant React Native image component. This is fork from react-native-fast-image:v8.3.4, and fixed an issue which support 0.60+ react-native.
 
 </div>
-
-<p align="center" >
-  <kbd>
-    <img src="https://github.com/DylanVann/react-native-fast-image/raw/master/docs/assets/scroll.gif" title="Scroll Demo" float="left">
-  </kbd>
-  <kbd>
-    <img src="https://github.com/DylanVann/react-native-fast-image/raw/master/docs/assets/priority.gif" title="Priority Demo" float="left">
-  </kbd>
-  <br>
-  <em>FastImage example app.</em>
-</p>
 
 React Native's `Image` component handles image caching like browsers
 for the most part.
@@ -64,7 +44,7 @@ yarn add react-native-fast-image
 ```
 
 ```jsx
-import FastImage from 'react-native-fast-image'
+import FastImage from '@aaxis/react-native-fast-image'
 
 const YourImage = () => (
     <FastImage
@@ -216,6 +196,10 @@ FastImage.preload([
 ## Troubleshooting
 
 If you have any problems using this library try the steps in [troubleshooting](docs/troubleshooting.md) and see if they fix it.
+
+If you meet an issue with "unable to access 'https://chromium.googlesource.com/webm/libwebp'" when execute pod install.
+Please go to your cocoapod folder: /Users/<username>/.cocoapods/repos/trunk/Specs/1/9/2/libwebp/1.1.0
+then change libwebp.podspec.json source.git to "https://github.com/webmproject/libwebp.git"
 
 ## Development
 
